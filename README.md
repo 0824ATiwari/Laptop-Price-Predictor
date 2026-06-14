@@ -41,14 +41,6 @@ Project Structure
 └── laptop_data.csv
 
 
-Docker
-
-Build the image yourself:
-
-bashdocker build -t laptop-price-predictor .
-docker run -p 8501:8501 laptop-price-predictor
-
-
 Model
 
 Trained on a dataset of 1000+ laptops. Uses a regression pipeline with feature encoding for categorical variables (brand, CPU, GPU, OS) and numerical features (RAM, storage, screen size, resolution).
